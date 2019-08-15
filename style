@@ -4,7 +4,7 @@ color:green;
 font-size:40px;
 
 text-align:center;
-background-image:url("technologie.jpg");
+background-image:url("../images/linux.jpeg");
 background-repeat:no-repeat;
 background-size:100%;
 }
