@@ -1,6 +1,6 @@
 body
 {
-color:green;
+color:white;
 font-size:40px;
 
 text-align:center;
@@ -10,4 +10,9 @@ background-size:100%;
 }
 nav{ color:red;
 
+}
+
+
+h1{
+    font-family: Satisfy;
 }
