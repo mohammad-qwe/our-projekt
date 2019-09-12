@@ -1,4 +1,4 @@
-
+var summe
 var beträge = []
 var nummer=-1
 var ArtikelName =["brot","wasser","salz","apfel"]
@@ -21,9 +21,9 @@ function Betrag(){
 for(var n=0;n<beträge.length;n++){
 betrag=betrag+beträge[n]
 }
-return betrag
+summe=betrag
+return summe
 }
-
 
 
 

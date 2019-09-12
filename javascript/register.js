@@ -8,11 +8,9 @@ function Gesamtsumme(kosten)
     return gesamtsumme
 
 }
-function Rückgeld(a , b )
+function Rückgeld(a)
 {
-    
-    var S = a + b
-    var G = 10000
-    var R = G - S
-    return (R+ "Euro"); 
+    var b=Betrag()
+    var R=a-b
+    return (R+" Euro"); 
 }
