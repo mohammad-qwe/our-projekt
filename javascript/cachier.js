@@ -30,13 +30,5 @@ return summe
 
 
 
-function ArtikelKennen(NameVonArtikel,menge){
-    
-    
-    var kosten=cachier(NameVonArtikel,menge)
-    
-console.log(Gesamtsumme(kosten))
-
-}
 
 
