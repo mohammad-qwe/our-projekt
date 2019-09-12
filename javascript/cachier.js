@@ -8,7 +8,6 @@ for (var i=0;i<ArtikelName.length;i++){
     if (NameVonArtikel==ArtikelName[i]){
        kosten=Preis[i]*menge
             }
-            if()
 }
 return  NameVonArtikel+" kostet "+kosten+" Euro"
 }
