@@ -3,18 +3,18 @@
     var questions = {
         questionList : [
             frage1={
-                    question:"wie alt bist du? " ,
-                    answer:["1: 44 "," 2: 33 "," 3: 22"],
+                    question:"wie viel einwohner hat düsseldorf? " ,
+                    answer:["1: 712.178"," 2: 642.304"," 3: 812.178"],
                     correctAnswers:[2]
                 },
             frage2={
-                question:"wo wohnst du?" ,
-                answer:["1: solingen","2: köln","3: düsseldorf"],
+                question:"wie viele bezirke hat düsseldorf?" ,
+                answer:["1: 9","2: 11","3: 7"],
                 correctAnswers:[1] 
                 },
                 frage3={
-                    question:"who arbeitest du?" ,
-                    answer:["1: bank","2: flughaven","3: trivago"],
+                    question:"wie heißt fussballmannschaft von düsseldorf?" ,
+                    answer:["1: Schallke Düsseldorf","2: Furtuna Düsseldorf","3: Arena Düsseldorf"],
                     correctAnswers:[2] 
                     },
             ]
@@ -23,6 +23,7 @@
 var  questionCounter=0
 var antwort=[]
 var trueAnswer = 0
+
 function getQuestion(nummerOfQuestion) {
     if(nummerOfQuestion>questions.questionList.length||nummerOfQuestion<=0){
       prompt("wir haben nur "+questions.questionList.length+" fragen")
@@ -36,7 +37,7 @@ return antwort[nummerOfQuestion-1] = (questions.questionList[nummerOfQuestion-1]
  
 }
  function checkAnswer(nummerOfQuestion,antwort) {
-     for(i=0;i<=questions.questionList[nummerOfQuestion-1].answer.length;i++){
+    /* for(i=0;i<=questions.questionList[nummerOfQuestion-1].answer.length;i++){*/
 if(antwort!=questions.questionList[nummerOfQuestion-1].correctAnswers){
     return false
 }
@@ -49,7 +50,7 @@ else{
      }
       
     
-  } 
+/* }*/ 
   function check(x) {
     
         if(x!=questions.questionList[i-1].correctAnswers){
