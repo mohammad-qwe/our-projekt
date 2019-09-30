@@ -26,7 +26,7 @@ var trueAnswer = 0
 
 function getQuestion(nummerOfQuestion) {
     if(nummerOfQuestion>questions.questionList.length||nummerOfQuestion<=0){
-      prompt("wir haben nur "+questions.questionList.length+" fragen")
+      alert("wir haben nur "+questions.questionList.length+" fragen")
     }
     else {
         questionCounter++ 
@@ -89,7 +89,7 @@ var questionsWort = {
 
   function getQuestionWort(nummerOfQuestion) {
     if(nummerOfQuestion>questionsWort.questionList.length||nummerOfQuestion<=0){
-      prompt("wir haben nur "+questionsWort.questionList.length+" fragen")
+      alert("wir haben nur "+questionsWort.questionList.length+" fragen")
     }
     else {
         questionCounter++ 
