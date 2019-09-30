@@ -99,7 +99,7 @@ return antwort[nummerOfQuestion-1] = (questionsWort.questionList[nummerOfQuestio
  
  
 }
- 
+ /* b teil*/
   function checkWort(x) {
     
     if(x!=questionsWort.questionList[i-1].correctAnswers){
