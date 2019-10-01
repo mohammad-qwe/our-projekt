@@ -14,7 +14,7 @@ header{width: 100%;
     text-transform: capitalize;
 }
 .container{
-    
+    border: 1px solid black;
     margin-top:50px;
     display: grid;
 
@@ -25,8 +25,11 @@ header{width: 100%;
    
   
     grid-gap: 10px;
-color:white;
-text-transform: uppercase;
+    color:red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow:1px 1px rgb(87, 82, 82);
 
 
 }
